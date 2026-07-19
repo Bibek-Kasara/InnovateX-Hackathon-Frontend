@@ -1,8 +1,9 @@
 // components/ProtectedRoute.tsx
+import type { ReactNode } from 'react';
 import { useUser } from '@clerk/clerk-react';
 import { Navigate } from 'react-router-dom';
 
-const ProtectedRoute = ({ children }: { children: JSX.Element }) => {
+const ProtectedRoute = ({ children }: { children: ReactNode }) => {
   const { isSignedIn, isLoaded } = useUser();
 
   if (!isLoaded) {
