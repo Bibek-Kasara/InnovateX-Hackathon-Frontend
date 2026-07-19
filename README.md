@@ -11,3 +11,5 @@ VITE_CLERK_PUBLISHABLE_KEY=pk_test_bWFnbmV0aWMtbGVtdXItMzkuY2xlcmsuYWNjb3VudHMuZ
 Bash
 npm run dev
 Open http://localhost:5173 in your browser.
+
+thank you
